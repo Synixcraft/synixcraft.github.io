@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Videos and More</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 10px;
+            min-height: 70px;
+            border-bottom: #77b300 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            background: #555;
+            color: #fff;
+            padding: 10px 0;
+            overflow: hidden;
+        }
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        section h2 {
+            margin: 10px 0;
+            font-size: 22px;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            width: calc(33.333% - 20px);
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .card p {
+            font-size: 16px;
+            color: #555;
+        }
+        .card a {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background: #77b300;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            border-top: #77b300 3px solid;
+        }
+        @media(max-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+        @media(max-width: 500px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Videos and More</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cartoons.html">Cartoons</a></li>
+        <li><a href="animes.html">Animes</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="private.html">Private</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <!-- Weekly Trending Section -->
+    <section id="weekly-trending">
+        <h2>Weekly Trending</h2>
+        <div class="card">
+            <img src="video1.jpg" alt="Video 1">
+            <p>Video Title 1</p>
+            <a href="#">Watch Now</a>
+        </div>
+        <div class="card">
+            <img src="video2.jpg" alt="Video 2">
+            <p>Video Title 2</p>
+            <a href="#">Watch Now</a>
+        </div>
+        <div class="card">
+            <img src="video3.jpg" alt="Video 3">
+            <p>Video Title 3</p>
+            <a href="#">Watch Now</a>
+        </div>
+    </section>
+
+    <!-- Recently Uploaded Section -->
+    <section id="recently-uploaded">
+        <h2>Recently Uploaded</h2>
+        <div class="card">
+            <img src="video4.jpg" alt="Video 4">
+            <p>Video Title 4</p>
+            <a href="#">Watch Now</a>
+        </div>
+        <div class="card">
+            <img src="video5.jpg" alt="Video 5">
+            <p>Video Title 5</p>
+            <a href="#">Watch Now</a>
+        </div>
+        <div class="card">
+            <img src="video6.jpg" alt="Video 6">
+            <p>Video Title 6</p>
+            <a href="#">Watch Now</a>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Videos and More. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
